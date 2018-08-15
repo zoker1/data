@@ -8,7 +8,7 @@
 <body>
 	<h2>DATA MAHASISWA</h2>
 	<!-- data(mama controler)/add(nama function)  -->
-	<a class="btn btn-primary" href="<?php echo base_url(); ?>data/add">INPUT DATA</a>
+	<a class="btn btn-primary" href="<?php echo base_url(); ?>mahasiswa/form_input_mahasiswa">INPUT DATA</a>
 	<table class="table table-bordered table-hover">
 		<thead>
 			<tr class="active">
@@ -27,8 +27,8 @@
 				<td><?php echo $key->alamat ?></td>
 				<td><?php echo $key->jurusan ?></td>
 				<td align="center">
-				<a class="btn btn-success" href="<?php echo base_url(); ?>data/update/<?php echo $key->nim ?>">..Edit..</a> ||
-				<a class="btn btn-danger" href="<?php echo base_url(); ?>data/delete/<?php echo $key->nim ?>">Delete</a>
+				<a class="btn btn-success" href="<?php echo base_url(); ?>mahasiswa/update/<?php echo $key->nim ?>">..Edit..</a> ||
+				<a class="btn btn-danger" href="<?php echo base_url(); ?>mahasiswa/delete/<?php echo $key->nim ?>">Delete</a>
 				</td>
 			</tr>
 		<?php endforeach ?>	

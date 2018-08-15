@@ -7,7 +7,7 @@
 </head>
 <body>
 	<h2>TABEL DATA</h2>
-	<a class="btn btn-primary" href="<?php echo base_url(); ?>crud/add">Create</a>
+	<a class="btn btn-primary" href="<?php echo base_url(); ?>dosen/add">Create</a>
 	<table class="table table-bordered table-hover">
 		<thead>
 			<tr class="active">
@@ -26,9 +26,9 @@
 				<!-- <td><?php echo $key->status ?></td>
 				<td><?php echo $key->jurusan ?></td> -->
 				<td align="center">
-				<a class="btn btn-success" href="<?php echo base_url(); ?>crud/read/<?php echo $key->id ?>">Read</a> ||
-				<a class="btn btn-success" href="<?php echo base_url(); ?>crud/update/<?php echo $key->id ?>">Edit</a> ||
-				<a class="btn btn-danger" href="<?php echo base_url(); ?>crud/delete/<?php echo $key->id ?>">Delete</a>
+				<a class="btn btn-success" href="<?php echo base_url(); ?>dosen/read/<?php echo $key->id ?>">Read</a> ||
+				<a class="btn btn-success" href="<?php echo base_url(); ?>dosen/update/<?php echo $key->id ?>">Edit</a> ||
+				<a class="btn btn-danger" href="<?php echo base_url(); ?>dosen/delete/<?php echo $key->id ?>">Delete</a>
 				</td>
 			</tr>
 		<?php endforeach ?>

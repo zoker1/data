@@ -26,9 +26,9 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
 
-             <li class="active"><a href="<?php echo base_url();?>data" target="">MAHASISWA</a></li>
+             <li class="active"><a href="<?php echo base_url();?>mahasiswa" target="">MAHASISWA</a></li>
 
-              <li class="active"><a href="<?php echo base_url();?>crud" target="">DOSEN PENGAJAR</a></li>
+              <li class="active"><a href="<?php echo base_url();?>dosen" target="">DOSEN PENGAJAR</a></li>
 
               <li class="active"><a href="<?php echo base_url();?>jadwal" target="">JADWAL MATAKUL</a></li>
           </ul>
